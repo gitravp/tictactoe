@@ -13,7 +13,7 @@ p2arr=[]    #holds all moves of p2 in order
 available=[0,1,2,3,4,5,6,7,8]
 wins=[[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]]    #all win condition possibilities
 
-from tictactoe_computer import next_move
+from TICTACTOE_PYTHON_computer import next_move
 
 #--------------------------------------------screen/label updating function-------------------------------------------------------------
 def toggle_mode():
